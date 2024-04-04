@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AdactinHotel">
+    <test name="Sample Test 3">
+        <parameter name="browser" value="FireBox"/>
+        <parameter name="url" value="https://adactinhotelapp.com/index.php"/>
+        <classes>
+            <class name="Test.AdactinHotelTest"/>
+        </classes>
+    </test>
+</suite>

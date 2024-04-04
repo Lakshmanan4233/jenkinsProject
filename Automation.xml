@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="classes" thread-count="1">
+
+<!--    <suite-files>-->
+<!--        <suite-file path="Google.xml"></suite-file>-->
+<!--        <suite-file path="Facebook.xml"></suite-file>-->
+<!--        <suite-file path="Adactin.xml"></suite-file>-->
+<!--    </suite-files>-->
+
+
+<!--    <test name="Sample Test 1">-->
+<!--        <parameter name="browser" value="Chrome"/>-->
+<!--        <classes>-->
+<!--            <class name="Test.GoogleLoginTest">-->
+<!--                <parameter name="url" value="https://www.google.com/"/>-->
+<!--            <parameter name="keysend" value="GoogleSendkeys"/>-->
+<!--            </class>-->
+<!--            <class name="Test.FaceBookLoginTest">-->
+<!--                <parameter name="url" value="https://www.facebook.com/"/>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+
+    <test name="Sample Test 2">
+        <parameter name="browser" value="Edge"/>
+        <parameter name="url" value="https://www.facebook.com/"/>
+        <classes>
+            <class name="Test.FaceBookLoginTest"/>
+        </classes>
+    </test>
+
+
+<!--    <test name="Sample Test 3">-->
+<!--        <parameter name="browser" value="FireBox"/>-->
+<!--        <parameter name="url" value="https://adactinhotelapp.com/index.php"/>-->
+<!--        <classes>-->
+<!--            <class name="Test.AdactinHotelTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>
